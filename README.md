@@ -52,17 +52,17 @@ blur=cv.blur(img, ksize=(7,7))
 - [code](https://github.com/aaliyahee/MachineVision/commit/74bfa7ae725849ba2efc4a5ec4584be88df17628)
 - [image](https://github.com/aaliyahee/MachineVision/issues/3)
 
-𝛼를 2로 수행
+𝛼를 2로 수행 (In [20])
 ```
-shapened_img=np.int32(img)+2*detail (In [20])
+shapened_img=np.int32(img)+2*detail 
 ```
-𝛼를 5로 수행
+𝛼를 5로 수행 (In [21])
 ```
-shapened_img=np.int32(img)+5*detail (In [21])
+shapened_img=np.int32(img)+5*detail 
 ```
-𝛼를 7로 수행
+𝛼를 7로 수행 (In [22])
 ```
-shapened_img=np.int32(img)+7*detail (In [22])
+shapened_img=np.int32(img)+7*detail 
 ```
 
 ## Separable filtering
