@@ -16,7 +16,7 @@
 
 ## Camera calibration 
 - [code-Camera Calibration](https://github.com/aaliyahee/MachineVision/blob/main/CameraCalibration.ipynb)<br>
-- ![image-Checkerboard](https://github.com/aaliyahee/MachineVision/issues/1)
+- [image-Checkerboard](https://github.com/aaliyahee/MachineVision/issues/1)
 - Calibration (camera matrix, distortion coefficients, rotation and translation vectors)
 ```
 ret, mtx, dist, rvecs, tvecs = cv.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
