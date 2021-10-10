@@ -66,3 +66,11 @@ shapened_img=np.int32(img)+7*detail
 ```
 
 ## Gasussian filtering
+- [code](https://github.com/aaliyahee/MachineVision/blob/main/GaussianFilter.ipynb)
+- [image](https://github.com/aaliyahee/MachineVision/issues/4)
+- [getGaussianKernel 함수 사용](https://docs.opencv.org/4.1.2/d4/d86/group__imgproc__filter.html#gac05a120c1ae92a6060dd0db190a61afa)
+- [filter2D 함수 사용](https://docs.opencv.org/4.1.2/d4/d86/group__imgproc__filter.html#ga27c049795ce870216ddfb366086b5a04)
+
+## Salt and pepper noise & Median filtering
+
+
