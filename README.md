@@ -14,7 +14,7 @@
 >os.mkdir(path)
 >```
 
-## Camera calibration 
+### Camera calibration 
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/CameraCalibration.ipynb)<br>
 - [image](https://github.com/aaliyahee/MachineVision/issues/1)
 
@@ -31,7 +31,7 @@ axis=np.float32([[0,0,0],[0,5,0],[1,5,0],[1,0,0],[0,0,-3],[0,5,-3],[1,5,-3],[1,0
 axis=np.float32([[2,2,2],[2,7,2],[3,7,2],[3,2,2],[2,2,-1],[2,7,-1],[3,7,-1],[3,2,-1]])
 ```
 
-## Average filtering
+### Average filtering
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/AverageFiltering.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/2)
 
@@ -41,7 +41,7 @@ blur = cv.blur(img, ksize=( , ))
 ```
 
 
-## Image sharpening
+### Image sharpening
 - [code](https://github.com/aaliyahee/MachineVision/commit/74bfa7ae725849ba2efc4a5ec4584be88df17628)
 - [image](https://github.com/aaliyahee/MachineVision/issues/3)
 
@@ -50,7 +50,7 @@ blur = cv.blur(img, ksize=( , ))
 shapened_img = np.int32(img) + 𝛼*detail 
 ```
 
-## Gasussian filtering
+### Gasussian filtering
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/GaussianFilter.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/4)
 - [getGaussianKernel](https://docs.opencv.org/4.1.2/d4/d86/group__imgproc__filter.html#gac05a120c1ae92a6060dd0db190a61afa)
@@ -61,7 +61,7 @@ kerner1d의 outer product를 계산하여 kernel2d 생성
 kernel2d = np.outer(kernel1d, kernel1d.transpose())
 ```
 
-## Salt and pepper noise & Median filtering
+### Salt and pepper noise & Median filtering
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SaltandPepper%26Medianfilter.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/5)
 
