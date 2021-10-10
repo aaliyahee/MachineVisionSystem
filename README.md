@@ -65,4 +65,4 @@ shapened_img=np.int32(img)+5*detail
 shapened_img=np.int32(img)+7*detail 
 ```
 
-## Separable filtering
+## Gasussian filtering
