@@ -38,7 +38,7 @@ axis = np.float32([[0,0,0], [0,5,0], [1,5,0], [1,0,0], [0,0,-3], [0,5,-3], [1,5,
 axis = np.float32([[2,2,2], [2,7,2], [3,7,2], [3,2,2], [2,2,-1], [2,7,-1], [3,7,-1], [3,2,-1]])
 ```
 
-### Average filtering
+### Average filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/AverageFiltering.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/2)
 
@@ -57,7 +57,7 @@ blur = cv.blur(img, ksize=( , ))
 shapened_img = np.int32(img) + 𝛼 * detail 
 ```
 
-### Gasussian filtering
+### Gasussian filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/GaussianFilter.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/4)
 - [getGaussianKernel](https://docs.opencv.org/4.1.2/d4/d86/group__imgproc__filter.html#gac05a120c1ae92a6060dd0db190a61afa)
@@ -72,3 +72,4 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SaltandPepper%26Medianfilter.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/5)
 
+### Sobel filter
