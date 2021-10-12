@@ -2,17 +2,17 @@
 <br>
 
 > Mount Google Drive
->```
->from google.colab import drive
->drive.mount('/content/gdrive’)
->```
->
+```
+from google.colab import drive
+drive.mount('/content/gdrive')
+```
+
 > Make a new folder 
->```
->import os
->path='/content/gdrive/MyDrive/폴더명'
->os.mkdir(path)
->```
+```
+import os
+path='/content/gdrive/MyDrive/폴더명'
+os.mkdir(path)
+```
 
 ### Camera calibration 
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/CameraCalibration.ipynb)<br>
