@@ -73,3 +73,5 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
 - [image](https://github.com/aaliyahee/MachineVision/issues/5)
 
 ### Sobel filter
+- [code](https://github.com/aaliyahee/MachineVision/blob/main/SobelFilter_gradient.ipynb)
+- [image]
