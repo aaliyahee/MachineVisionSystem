@@ -37,6 +37,7 @@ axis = np.float32([[0,0,0], [0,5,0], [1,5,0], [1,0,0], [0,0,-3], [0,5,-3], [1,5,
 ```
 axis = np.float32([[2,2,2], [2,7,2], [3,7,2], [3,2,2], [2,2,-1], [2,7,-1], [3,7,-1], [3,2,-1]])
 ```
+<hr>
 
 ### Average filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/AverageFiltering.ipynb)
@@ -46,7 +47,7 @@ Kernel의 크기 변경하며 수행
 ```
 blur = cv.blur(img, ksize=( , ))
 ```
-
+<hr>
 
 ### Image sharpening
 - [code](https://github.com/aaliyahee/MachineVision/commit/74bfa7ae725849ba2efc4a5ec4584be88df17628)
@@ -56,6 +57,7 @@ blur = cv.blur(img, ksize=( , ))
 ```
 shapened_img = np.int32(img) + 𝛼 * detail 
 ```
+<hr>
 
 ### Gasussian filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/GaussianFilter.ipynb)
@@ -67,14 +69,19 @@ kerner1d의 outer product를 계산하여 kernel2d 생성
 ```
 kernel2d = np.outer(kernel1d, kernel1d.transpose())
 ```
+<hr>
 
 ### Salt and pepper noise & Median filtering
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SaltandPepper%26Medianfilter.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/5)
-
+ 
+<hr>
+ 
 ### Sobel filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SobelFilter_gradient.ipynb)
 - [image]
+
+<hr>
 
 ### RANSAC line fitting
 - A simple but Clever Idea
