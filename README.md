@@ -75,3 +75,19 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
 ### Sobel filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SobelFilter_gradient.ipynb)
 - [image]
+
+### RANSAC line fitting
+- A simple but Clever Idea
+  - _What we really want_: model explains many points "well"
+  - _Least Squares_: model makes as few big mistakes as possible over the entire dataset
+  - _New objective_: find model for which error is "small" for as many data points as possible
+  - _Method_: RANSAC (**RA**ndom **SA**mple **C**onsensus)
+
+- RANSAC: Pros and Cons <br>
+
+  ||Pros|Cons|
+  |------|---|---|
+  |1|Ridiculously simple|Have to tune parameters|
+  |2|Ridiculously effective|No theory (so can not derive parameters via theory)|
+  |3|Works in general|Not magic, especially with lots of outliers|
+ 
