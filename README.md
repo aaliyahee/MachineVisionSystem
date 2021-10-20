@@ -79,7 +79,7 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
  
 ### Sobel filter
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SobelFilter_gradient.ipynb)
-- [image]
+- [image]()
 
 <hr>
 
@@ -97,4 +97,8 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
   |1|Ridiculously simple|Have to tune parameters|
   |2|Ridiculously effective|No theory (so can not derive parameters via theory)|
   |3|Works in general|Not magic, especially with lots of outliers|
+  
+- [code]()
+- [image]()
+- [draw line (cv.line)](https://opencv-python.readthedocs.io/en/latest/doc/03.drawShape/drawShape.html)
  
