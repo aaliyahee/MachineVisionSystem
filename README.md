@@ -60,7 +60,7 @@ shapened_img = np.int32(img) + 𝛼 * detail
 <hr>
 
 ### Gasussian filter
-- [code](https://github.com/aaliyahee/MachineVision/blob/main/GaussianFilter.ipynb)
+- [code]
 - [image](https://github.com/aaliyahee/MachineVision/issues/4)
 - [getGaussianKernel](https://docs.opencv.org/4.1.2/d4/d86/group__imgproc__filter.html#gac05a120c1ae92a6060dd0db190a61afa)
 - [filter2D](https://docs.opencv.org/4.1.2/d4/d86/group__imgproc__filter.html#ga27c049795ce870216ddfb366086b5a04)
