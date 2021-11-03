@@ -111,4 +111,4 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
  
 - [code]()
 - [image](https://github.com/aaliyahee/MachineVision/issues/7)
-- [cv.rotate](https://docs.opencv.org/master/d2/de8/group__core__array.html#ga4ad01c0978b0ce64baa246811deeac24)
+- [image rotation](https://docs.opencv.org/master/d2/de8/group__core__array.html#ga4ad01c0978b0ce64baa246811deeac24)
