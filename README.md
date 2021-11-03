@@ -109,6 +109,6 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
   <img src="https://user-images.githubusercontent.com/48505950/140012775-83fe5dec-484e-4096-8d67-2e936b807539.png">
   <img src="https://user-images.githubusercontent.com/48505950/140013125-86340f09-0abf-46c8-8086-60d781fd9dff.png">
  
-- [code]()
+- [code](https://github.com/aaliyahee/MachineVision/blob/main/HarrisCornerDetector.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/7)
-- [image rotation](https://docs.opencv.org/master/d2/de8/group__core__array.html#ga4ad01c0978b0ce64baa246811deeac24)
+- [image rotation (cv.rotate)](https://docs.opencv.org/master/d2/de8/group__core__array.html#ga4ad01c0978b0ce64baa246811deeac24)
