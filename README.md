@@ -112,3 +112,18 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/HarrisCornerDetector.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/7)
 - [image rotation (cv.rotate)](https://docs.opencv.org/master/d2/de8/group__core__array.html#ga4ad01c0978b0ce64baa246811deeac24)
+<hr>
+
+
+### SIFT (based Blob Detector)
+- Blob Detection : Find _maxima and minima_ of blob filter response in _scale and space_
+  - With Laplacian
+    - Edge : zero-crossing
+    - Blob : Two edges in opposite directions
+    - When blob is just the rught size, Laplacian gives a large absolute value
+  - In scale space
+    - Convolve image with Laplacian at several scales
+    - Find local maxima and minima of squared Laplacian response in image+sclae space
+
+- [code](https://github.com/aaliyahee/MachineVision/blob/main/SIFT(based_blob_detector).ipynb)
+- [image](https://github.com/aaliyahee/MachineVision/issues/10)
