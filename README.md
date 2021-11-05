@@ -109,7 +109,8 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
 <hr>
 
 
-### SIFT (based Blob Detector)
+### SIFT (based Blob Detector) 
+(* SIFT: Scale Invariant Feature Transform)
 - Blob Detection : Find _maxima and minima_ of blob filter response in _scale and space_
   - With Laplacian
     - Edge : zero-crossing
@@ -118,6 +119,26 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
   - In scale space
     - Convolve image with Laplacian at several scales
     - Find local maxima and minima of squared Laplacian response in image+sclae space
-
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/SIFT(based_blob_detector).ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/10)
+<hr>
+
+### SIFT (based Local Descriptors)
+- SIFT Descriptors
+  1. Normalize the rotation/scale of the patch
+  2. Compute gradient at each pixel
+  3. Divide into sub-patch (here 2x2, actually 4x4)
+  4. In each sub-patch, compute histogram of 8 gradient directions
+  5. Describe the patch with 4x4x8=128 numbers
+- Nice properties of SIFT
+  - Using graidients gives invariance to illumination
+  - Using histogram of patches gives invariance to small/rotations
+  - Compactly describe local appearance of patches with 128-dim vector
+  - It can handle up to ~60 degrees out-of-plane rotation & chages of illumination
+  - Fast and efficient and lots of code available
+- SIFT Features: Instance Matching
+  - Given a features xq, instaed of finding the nearest neighbor to xq, find the nearest neighbor and second nearest neighbor
+  - This ratio is a good test for matches:
+ <img src="https://user-images.githubusercontent.com/48505950/140458637-495124a1-982c-4cfe-8968-d35be2b0104f.png">
+- [code](https://github.com/aaliyahee/MachineVision/blob/main/LocalDescriptor.ipynb)
+- [image](https://github.com/aaliyahee/MachineVision/issues/12)
