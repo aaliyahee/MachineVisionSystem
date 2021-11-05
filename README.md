@@ -12,12 +12,6 @@ import os
 path='/content/gdrive/MyDrive/폴더명'
 os.mkdir(path)
 ```
-> Open Source Computer Vision (OpenCV)
-```
-import cv2 as cv
-import numpy as np
-from google.colab.patches import cv_imshow
-```
 
 <hr>
 
