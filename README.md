@@ -131,13 +131,13 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
     3. Divide into sub-patch (here 2x2, actually 4x4)
     4. In each sub-patch, compute histogram of 8 gradient directions
     5. Describe the patch with 4x4x8=128 numbers
-  - Nice properties of SIFT
+  - Properties
     - Using graidients gives invariance to illumination
     - Using histogram of patches gives invariance to small/rotations
     - Compactly describe local appearance of patches with 128-dim vector
     - It can handle up to ~60 degrees out-of-plane rotation & chages of illumination
     - Fast and efficient and lots of code available
-  - SIFT Features: Instance Matching
+  - Features: Instance Matching
     - Given a features xq, instaed of finding the nearest neighbor to xq, find the nearest neighbor and second nearest neighbor
     - This ratio is a good test for matches:
  <img src="https://user-images.githubusercontent.com/48505950/140458637-495124a1-982c-4cfe-8968-d35be2b0104f.png">
