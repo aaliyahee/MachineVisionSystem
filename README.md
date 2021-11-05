@@ -141,5 +141,6 @@ kernel2d = np.outer(kernel1d, kernel1d.transpose())
     - Given a features xq, instaed of finding the nearest neighbor to xq, find the nearest neighbor and second nearest neighbor
     - This ratio is a good test for matches:
  <img src="https://user-images.githubusercontent.com/48505950/140458637-495124a1-982c-4cfe-8968-d35be2b0104f.png">
+ 
 - [code](https://github.com/aaliyahee/MachineVision/blob/main/LocalDescriptor.ipynb)
 - [image](https://github.com/aaliyahee/MachineVision/issues/12)
